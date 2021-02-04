@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     Button sol;
     Button la;
     Button si;
-    Button dooo;
+    Button doa;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -84,6 +84,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 mpsi.start();
+            }
+        });
+        doa = (Button)findViewById(R.id.doaButton);
+        final MediaPlayer mpdoa = MediaPlayer.create(this, R.raw.doa);
+        doa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mpdoa.start();
             }
         });
     }
