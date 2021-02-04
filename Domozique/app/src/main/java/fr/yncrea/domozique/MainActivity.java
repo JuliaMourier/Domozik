@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState, persistentState);
         setContentView(R.layout.bankloginpage);
     }*/
-    final MediaPlayer mp = MediaPlayer.create(this, R.raw.soundu);
+   // final MediaPlayer mp = MediaPlayer.create(this, R.raw.soundu);
     Button do_;
     Button re;
     Button mi;
